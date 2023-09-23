@@ -1,0 +1,25 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.btn {
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 11px 60px 12px 60px;
+  min-width: 200px;
+}

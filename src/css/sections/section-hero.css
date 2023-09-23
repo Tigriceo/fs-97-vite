@@ -1,3 +1,30 @@
-.hero-title{
-    color: red;
-} 
+.hero {
+  position: relative;
+  padding: 243px 0 146px;
+  background: #06071b;
+  color: #fff;
+}
+.hero-title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.hero-subtitle {
+  margin-bottom: 28px;
+  font-size: 20px;
+}
+.hero-list {
+  margin-bottom: 60px;
+}
+.hero-list__item {
+  font-size: 16px;
+  font-weight: 700;
+}
+.hero-list__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.hero-image {
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
