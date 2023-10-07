@@ -1,5 +1,2 @@
-let vars = 0;
-
-if(vars == 0){
-    
-}
+import './js/aos-config';
+import './js/slider-config';

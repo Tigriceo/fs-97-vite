@@ -5,10 +5,13 @@
   |============================
 */
 @import url('../../node_modules/modern-normalize/modern-normalize.css');
+/* @import url('../../node_modules/aos/dist/aos.css'); */
+@import url('../../node_modules/swiper/swiper-bundle.min.css');
 @import url('./reset.css');
 @import url('./common.css');
 @import url('./header.css');
 @import url('./sections/section-hero.css');
+@import url('./sections/section-slider.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

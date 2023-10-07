@@ -35,12 +35,12 @@
   }
 }
 
-
 .test {
   display: flex;
   gap: 20px;
 }
 .img {
+  flex-basis: calc(50% - 10px);
   width: 400px;
   height: 400px;
 
@@ -48,15 +48,13 @@
   object-fit: contain;
 }
 .css {
+  flex-basis: calc(50% - 10px);
   background: url(/img/hero_img.png);
   width: 400px;
   height: 400px;
 
-
   background-position: center;
   background-size: contain;
-
-
 
   background-repeat: no-repeat;
 }

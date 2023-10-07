@@ -1,0 +1,23 @@
+.swiper{
+    max-width: 100%;
+}
+.swiper-slide{
+    min-height: 250px;
+    border: 10px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.swiper-slide div{
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: 0.8s 0.4s;
+}
+.swiper-slide.swiper-slide-next div,
+.swiper-slide.swiper-slide-active div{
+     transform: translateY(0);
+    opacity: 1;
+}
